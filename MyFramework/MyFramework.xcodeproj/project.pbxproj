@@ -1,0 +1,959 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5F3260220AFBED0001E4CEA /* MyFrameworkiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5F325F920AFBECF001E4CEA /* MyFrameworkiOS.framework */; };
+		A5F3260720AFBED0001E4CEA /* MyFrameworkiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F3260620AFBED0001E4CEA /* MyFrameworkiOSTests.swift */; };
+		A5F3260920AFBED0001E4CEA /* MyFrameworkiOS.h in Headers */ = {isa = PBXBuildFile; fileRef = A5F325FB20AFBECF001E4CEA /* MyFrameworkiOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5F3261E20AFBEFC001E4CEA /* MyFrameworkOSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5F3261520AFBEFC001E4CEA /* MyFrameworkOSX.framework */; };
+		A5F3262320AFBEFC001E4CEA /* MyFrameworkOSXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F3262220AFBEFC001E4CEA /* MyFrameworkOSXTests.swift */; };
+		A5F3262520AFBEFC001E4CEA /* MyFrameworkOSX.h in Headers */ = {isa = PBXBuildFile; fileRef = A5F3261720AFBEFC001E4CEA /* MyFrameworkOSX.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5F3263A20AFBF21001E4CEA /* MyFrameworkTVOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5F3263120AFBF21001E4CEA /* MyFrameworkTVOS.framework */; };
+		A5F3263F20AFBF21001E4CEA /* MyFrameworkTVOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F3263E20AFBF21001E4CEA /* MyFrameworkTVOSTests.swift */; };
+		A5F3264120AFBF21001E4CEA /* MyFrameworkTVOS.h in Headers */ = {isa = PBXBuildFile; fileRef = A5F3263320AFBF21001E4CEA /* MyFrameworkTVOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5F3264A20AFC159001E4CEA /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F3264920AFC159001E4CEA /* Car.swift */; };
+		A5F3264B20AFC159001E4CEA /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F3264920AFC159001E4CEA /* Car.swift */; };
+		A5F3264C20AFC159001E4CEA /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F3264920AFC159001E4CEA /* Car.swift */; };
+		A5F3264F20AFC26D001E4CEA /* CarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F3264E20AFC26D001E4CEA /* CarTests.swift */; };
+		A5F3265020AFC26D001E4CEA /* CarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F3264E20AFC26D001E4CEA /* CarTests.swift */; };
+		A5F3265120AFC26D001E4CEA /* CarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F3264E20AFC26D001E4CEA /* CarTests.swift */; };
+		A5F3265220AFC2B4001E4CEA /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F3264920AFC159001E4CEA /* Car.swift */; };
+		A5F3265320AFC2B5001E4CEA /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F3264920AFC159001E4CEA /* Car.swift */; };
+		A5F3265420AFC2B6001E4CEA /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F3264920AFC159001E4CEA /* Car.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5F3260320AFBED0001E4CEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5F325D120AFBE62001E4CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5F325F820AFBECF001E4CEA;
+			remoteInfo = MyFrameworkiOS;
+		};
+		A5F3261F20AFBEFC001E4CEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5F325D120AFBE62001E4CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5F3261420AFBEFC001E4CEA;
+			remoteInfo = MyFrameworkOSX;
+		};
+		A5F3263B20AFBF21001E4CEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5F325D120AFBE62001E4CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5F3263020AFBF21001E4CEA;
+			remoteInfo = MyFrameworkTVOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A5F325F920AFBECF001E4CEA /* MyFrameworkiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyFrameworkiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5F325FB20AFBECF001E4CEA /* MyFrameworkiOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyFrameworkiOS.h; sourceTree = "<group>"; };
+		A5F325FC20AFBECF001E4CEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5F3260120AFBED0001E4CEA /* MyFrameworkiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFrameworkiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5F3260620AFBED0001E4CEA /* MyFrameworkiOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFrameworkiOSTests.swift; sourceTree = "<group>"; };
+		A5F3260820AFBED0001E4CEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5F3261520AFBEFC001E4CEA /* MyFrameworkOSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyFrameworkOSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5F3261720AFBEFC001E4CEA /* MyFrameworkOSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyFrameworkOSX.h; sourceTree = "<group>"; };
+		A5F3261820AFBEFC001E4CEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5F3261D20AFBEFC001E4CEA /* MyFrameworkOSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFrameworkOSXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5F3262220AFBEFC001E4CEA /* MyFrameworkOSXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFrameworkOSXTests.swift; sourceTree = "<group>"; };
+		A5F3262420AFBEFC001E4CEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5F3263120AFBF21001E4CEA /* MyFrameworkTVOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyFrameworkTVOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5F3263320AFBF21001E4CEA /* MyFrameworkTVOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyFrameworkTVOS.h; sourceTree = "<group>"; };
+		A5F3263420AFBF21001E4CEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5F3263920AFBF21001E4CEA /* MyFrameworkTVOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFrameworkTVOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5F3263E20AFBF21001E4CEA /* MyFrameworkTVOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFrameworkTVOSTests.swift; sourceTree = "<group>"; };
+		A5F3264020AFBF21001E4CEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5F3264920AFC159001E4CEA /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		A5F3264E20AFC26D001E4CEA /* CarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5F325F520AFBECF001E4CEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5F325FE20AFBED0001E4CEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5F3260220AFBED0001E4CEA /* MyFrameworkiOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5F3261120AFBEFC001E4CEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5F3261A20AFBEFC001E4CEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5F3261E20AFBEFC001E4CEA /* MyFrameworkOSX.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5F3262D20AFBF21001E4CEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5F3263620AFBF21001E4CEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5F3263A20AFBF21001E4CEA /* MyFrameworkTVOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5F325D020AFBE62001E4CEA = {
+			isa = PBXGroup;
+			children = (
+				A5F3264D20AFC22C001E4CEA /* Tests */,
+				A5F3264820AFC133001E4CEA /* Sources */,
+				A5F325FA20AFBECF001E4CEA /* MyFrameworkiOS */,
+				A5F3260520AFBED0001E4CEA /* MyFrameworkiOSTests */,
+				A5F3261620AFBEFC001E4CEA /* MyFrameworkOSX */,
+				A5F3262120AFBEFC001E4CEA /* MyFrameworkOSXTests */,
+				A5F3263220AFBF21001E4CEA /* MyFrameworkTVOS */,
+				A5F3263D20AFBF21001E4CEA /* MyFrameworkTVOSTests */,
+				A5F325DB20AFBE62001E4CEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5F325DB20AFBE62001E4CEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5F325F920AFBECF001E4CEA /* MyFrameworkiOS.framework */,
+				A5F3260120AFBED0001E4CEA /* MyFrameworkiOSTests.xctest */,
+				A5F3261520AFBEFC001E4CEA /* MyFrameworkOSX.framework */,
+				A5F3261D20AFBEFC001E4CEA /* MyFrameworkOSXTests.xctest */,
+				A5F3263120AFBF21001E4CEA /* MyFrameworkTVOS.framework */,
+				A5F3263920AFBF21001E4CEA /* MyFrameworkTVOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5F325FA20AFBECF001E4CEA /* MyFrameworkiOS */ = {
+			isa = PBXGroup;
+			children = (
+				A5F325FB20AFBECF001E4CEA /* MyFrameworkiOS.h */,
+				A5F325FC20AFBECF001E4CEA /* Info.plist */,
+			);
+			path = MyFrameworkiOS;
+			sourceTree = "<group>";
+		};
+		A5F3260520AFBED0001E4CEA /* MyFrameworkiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				A5F3260620AFBED0001E4CEA /* MyFrameworkiOSTests.swift */,
+				A5F3260820AFBED0001E4CEA /* Info.plist */,
+			);
+			path = MyFrameworkiOSTests;
+			sourceTree = "<group>";
+		};
+		A5F3261620AFBEFC001E4CEA /* MyFrameworkOSX */ = {
+			isa = PBXGroup;
+			children = (
+				A5F3261720AFBEFC001E4CEA /* MyFrameworkOSX.h */,
+				A5F3261820AFBEFC001E4CEA /* Info.plist */,
+			);
+			path = MyFrameworkOSX;
+			sourceTree = "<group>";
+		};
+		A5F3262120AFBEFC001E4CEA /* MyFrameworkOSXTests */ = {
+			isa = PBXGroup;
+			children = (
+				A5F3262220AFBEFC001E4CEA /* MyFrameworkOSXTests.swift */,
+				A5F3262420AFBEFC001E4CEA /* Info.plist */,
+			);
+			path = MyFrameworkOSXTests;
+			sourceTree = "<group>";
+		};
+		A5F3263220AFBF21001E4CEA /* MyFrameworkTVOS */ = {
+			isa = PBXGroup;
+			children = (
+				A5F3263320AFBF21001E4CEA /* MyFrameworkTVOS.h */,
+				A5F3263420AFBF21001E4CEA /* Info.plist */,
+			);
+			path = MyFrameworkTVOS;
+			sourceTree = "<group>";
+		};
+		A5F3263D20AFBF21001E4CEA /* MyFrameworkTVOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				A5F3263E20AFBF21001E4CEA /* MyFrameworkTVOSTests.swift */,
+				A5F3264020AFBF21001E4CEA /* Info.plist */,
+			);
+			path = MyFrameworkTVOSTests;
+			sourceTree = "<group>";
+		};
+		A5F3264820AFC133001E4CEA /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A5F3264920AFC159001E4CEA /* Car.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		A5F3264D20AFC22C001E4CEA /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A5F3264E20AFC26D001E4CEA /* CarTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A5F325F620AFBECF001E4CEA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5F3260920AFBED0001E4CEA /* MyFrameworkiOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5F3261220AFBEFC001E4CEA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5F3262520AFBEFC001E4CEA /* MyFrameworkOSX.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5F3262E20AFBF21001E4CEA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5F3264120AFBF21001E4CEA /* MyFrameworkTVOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A5F325F820AFBECF001E4CEA /* MyFrameworkiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5F3260A20AFBED0001E4CEA /* Build configuration list for PBXNativeTarget "MyFrameworkiOS" */;
+			buildPhases = (
+				A5F325F420AFBECF001E4CEA /* Sources */,
+				A5F325F520AFBECF001E4CEA /* Frameworks */,
+				A5F325F620AFBECF001E4CEA /* Headers */,
+				A5F325F720AFBECF001E4CEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyFrameworkiOS;
+			productName = MyFrameworkiOS;
+			productReference = A5F325F920AFBECF001E4CEA /* MyFrameworkiOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A5F3260020AFBED0001E4CEA /* MyFrameworkiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5F3260D20AFBED0001E4CEA /* Build configuration list for PBXNativeTarget "MyFrameworkiOSTests" */;
+			buildPhases = (
+				A5F325FD20AFBED0001E4CEA /* Sources */,
+				A5F325FE20AFBED0001E4CEA /* Frameworks */,
+				A5F325FF20AFBED0001E4CEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5F3260420AFBED0001E4CEA /* PBXTargetDependency */,
+			);
+			name = MyFrameworkiOSTests;
+			productName = MyFrameworkiOSTests;
+			productReference = A5F3260120AFBED0001E4CEA /* MyFrameworkiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A5F3261420AFBEFC001E4CEA /* MyFrameworkOSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5F3262620AFBEFC001E4CEA /* Build configuration list for PBXNativeTarget "MyFrameworkOSX" */;
+			buildPhases = (
+				A5F3261020AFBEFC001E4CEA /* Sources */,
+				A5F3261120AFBEFC001E4CEA /* Frameworks */,
+				A5F3261220AFBEFC001E4CEA /* Headers */,
+				A5F3261320AFBEFC001E4CEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyFrameworkOSX;
+			productName = MyFrameworkOSX;
+			productReference = A5F3261520AFBEFC001E4CEA /* MyFrameworkOSX.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A5F3261C20AFBEFC001E4CEA /* MyFrameworkOSXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5F3262920AFBEFC001E4CEA /* Build configuration list for PBXNativeTarget "MyFrameworkOSXTests" */;
+			buildPhases = (
+				A5F3261920AFBEFC001E4CEA /* Sources */,
+				A5F3261A20AFBEFC001E4CEA /* Frameworks */,
+				A5F3261B20AFBEFC001E4CEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5F3262020AFBEFC001E4CEA /* PBXTargetDependency */,
+			);
+			name = MyFrameworkOSXTests;
+			productName = MyFrameworkOSXTests;
+			productReference = A5F3261D20AFBEFC001E4CEA /* MyFrameworkOSXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A5F3263020AFBF21001E4CEA /* MyFrameworkTVOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5F3264220AFBF21001E4CEA /* Build configuration list for PBXNativeTarget "MyFrameworkTVOS" */;
+			buildPhases = (
+				A5F3262C20AFBF21001E4CEA /* Sources */,
+				A5F3262D20AFBF21001E4CEA /* Frameworks */,
+				A5F3262E20AFBF21001E4CEA /* Headers */,
+				A5F3262F20AFBF21001E4CEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyFrameworkTVOS;
+			productName = MyFrameworkTVOS;
+			productReference = A5F3263120AFBF21001E4CEA /* MyFrameworkTVOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A5F3263820AFBF21001E4CEA /* MyFrameworkTVOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5F3264520AFBF21001E4CEA /* Build configuration list for PBXNativeTarget "MyFrameworkTVOSTests" */;
+			buildPhases = (
+				A5F3263520AFBF21001E4CEA /* Sources */,
+				A5F3263620AFBF21001E4CEA /* Frameworks */,
+				A5F3263720AFBF21001E4CEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5F3263C20AFBF21001E4CEA /* PBXTargetDependency */,
+			);
+			name = MyFrameworkTVOSTests;
+			productName = MyFrameworkTVOSTests;
+			productReference = A5F3263920AFBF21001E4CEA /* MyFrameworkTVOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5F325D120AFBE62001E4CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Douglas Systems";
+				TargetAttributes = {
+					A5F325F820AFBECF001E4CEA = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+					A5F3260020AFBED0001E4CEA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					A5F3261420AFBEFC001E4CEA = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+					A5F3261C20AFBEFC001E4CEA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					A5F3263020AFBF21001E4CEA = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+					A5F3263820AFBF21001E4CEA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A5F325D420AFBE62001E4CEA /* Build configuration list for PBXProject "MyFramework" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A5F325D020AFBE62001E4CEA;
+			productRefGroup = A5F325DB20AFBE62001E4CEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5F325F820AFBECF001E4CEA /* MyFrameworkiOS */,
+				A5F3260020AFBED0001E4CEA /* MyFrameworkiOSTests */,
+				A5F3261420AFBEFC001E4CEA /* MyFrameworkOSX */,
+				A5F3261C20AFBEFC001E4CEA /* MyFrameworkOSXTests */,
+				A5F3263020AFBF21001E4CEA /* MyFrameworkTVOS */,
+				A5F3263820AFBF21001E4CEA /* MyFrameworkTVOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5F325F720AFBECF001E4CEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5F325FF20AFBED0001E4CEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5F3261320AFBEFC001E4CEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5F3261B20AFBEFC001E4CEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5F3262F20AFBF21001E4CEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5F3263720AFBF21001E4CEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5F325F420AFBECF001E4CEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5F3264A20AFC159001E4CEA /* Car.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5F325FD20AFBED0001E4CEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5F3264F20AFC26D001E4CEA /* CarTests.swift in Sources */,
+				A5F3260720AFBED0001E4CEA /* MyFrameworkiOSTests.swift in Sources */,
+				A5F3265220AFC2B4001E4CEA /* Car.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5F3261020AFBEFC001E4CEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5F3264B20AFC159001E4CEA /* Car.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5F3261920AFBEFC001E4CEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5F3265020AFC26D001E4CEA /* CarTests.swift in Sources */,
+				A5F3262320AFBEFC001E4CEA /* MyFrameworkOSXTests.swift in Sources */,
+				A5F3265320AFC2B5001E4CEA /* Car.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5F3262C20AFBF21001E4CEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5F3264C20AFC159001E4CEA /* Car.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5F3263520AFBF21001E4CEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5F3265120AFC26D001E4CEA /* CarTests.swift in Sources */,
+				A5F3263F20AFBF21001E4CEA /* MyFrameworkTVOSTests.swift in Sources */,
+				A5F3265420AFC2B6001E4CEA /* Car.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5F3260420AFBED0001E4CEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5F325F820AFBECF001E4CEA /* MyFrameworkiOS */;
+			targetProxy = A5F3260320AFBED0001E4CEA /* PBXContainerItemProxy */;
+		};
+		A5F3262020AFBEFC001E4CEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5F3261420AFBEFC001E4CEA /* MyFrameworkOSX */;
+			targetProxy = A5F3261F20AFBEFC001E4CEA /* PBXContainerItemProxy */;
+		};
+		A5F3263C20AFBF21001E4CEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5F3263020AFBF21001E4CEA /* MyFrameworkTVOS */;
+			targetProxy = A5F3263B20AFBF21001E4CEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A5F325EC20AFBE62001E4CEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A5F325ED20AFBE62001E4CEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A5F3260B20AFBED0001E4CEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MyFrameworkiOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.douglassystems.MyFrameworkiOS;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5F3260C20AFBED0001E4CEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MyFrameworkiOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.douglassystems.MyFrameworkiOS;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A5F3260E20AFBED0001E4CEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyFrameworkiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.douglassystems.MyFrameworkiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5F3260F20AFBED0001E4CEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyFrameworkiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.douglassystems.MyFrameworkiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A5F3262720AFBEFC001E4CEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = MyFrameworkOSX/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.douglassystems.MyFrameworkOSX;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		A5F3262820AFBEFC001E4CEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = MyFrameworkOSX/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.douglassystems.MyFrameworkOSX;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		A5F3262A20AFBEFC001E4CEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MyFrameworkOSXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.douglassystems.MyFrameworkOSXTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		A5F3262B20AFBEFC001E4CEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MyFrameworkOSXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.douglassystems.MyFrameworkOSXTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		A5F3264320AFBF21001E4CEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MyFrameworkTVOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.douglassystems.MyFrameworkTVOS;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		A5F3264420AFBF21001E4CEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MyFrameworkTVOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.douglassystems.MyFrameworkTVOS;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+		A5F3264620AFBF21001E4CEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyFrameworkTVOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.douglassystems.MyFrameworkTVOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		A5F3264720AFBF21001E4CEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyFrameworkTVOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.douglassystems.MyFrameworkTVOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5F325D420AFBE62001E4CEA /* Build configuration list for PBXProject "MyFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5F325EC20AFBE62001E4CEA /* Debug */,
+				A5F325ED20AFBE62001E4CEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5F3260A20AFBED0001E4CEA /* Build configuration list for PBXNativeTarget "MyFrameworkiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5F3260B20AFBED0001E4CEA /* Debug */,
+				A5F3260C20AFBED0001E4CEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5F3260D20AFBED0001E4CEA /* Build configuration list for PBXNativeTarget "MyFrameworkiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5F3260E20AFBED0001E4CEA /* Debug */,
+				A5F3260F20AFBED0001E4CEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5F3262620AFBEFC001E4CEA /* Build configuration list for PBXNativeTarget "MyFrameworkOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5F3262720AFBEFC001E4CEA /* Debug */,
+				A5F3262820AFBEFC001E4CEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5F3262920AFBEFC001E4CEA /* Build configuration list for PBXNativeTarget "MyFrameworkOSXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5F3262A20AFBEFC001E4CEA /* Debug */,
+				A5F3262B20AFBEFC001E4CEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5F3264220AFBF21001E4CEA /* Build configuration list for PBXNativeTarget "MyFrameworkTVOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5F3264320AFBF21001E4CEA /* Debug */,
+				A5F3264420AFBF21001E4CEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5F3264520AFBF21001E4CEA /* Build configuration list for PBXNativeTarget "MyFrameworkTVOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5F3264620AFBF21001E4CEA /* Debug */,
+				A5F3264720AFBF21001E4CEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5F325D120AFBE62001E4CEA /* Project object */;
+}

@@ -1,2 +1,2 @@
-# MyFramework
-Example Framework written in Swift
+# MyFrameworkSwift
+Example Framework Written in Swift.
